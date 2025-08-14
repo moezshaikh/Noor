@@ -1,0 +1,268 @@
+/* =====================
+   Islamic Calligraphy Shop Styles (submit.css)
+   ===================== */
+
+/* General */
+.app {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background-color: #d0c390;
+  padding: 2rem;
+  padding-top: 80px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #aaa8a5, #e8f5e9);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #1c1b1b;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #c9a130;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+  text-align: center;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Image Drop Zone */
+.image-drop-zone {
+  border: 5px dashed #272323;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: border-color 0.3s, transform 0.3s ease;
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 90%;
+}
+
+.image-drop-zone:hover {
+  border-color: #92b151;
+  transform: translateY(-3px);
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #121212;
+}
+
+/* Form Inputs */
+.form-input, .form-select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Price Preview */
+.price-preview {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #232727;
+}
+
+/* Custom Order Button */
+.custom-order-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  width: 100%;
+}
+
+.custom-order-button:hover {
+  background-color: #090606;
+  transform: translateY(-2px);
+}
+
+/* =====================
+   Responsive Styles
+   ===================== */
+
+/* Large Screens - 1080px */
+@media (max-width: 1080px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  .modal-content {
+    max-width: 500px;
+  }
+}
+
+/* Tablet Screens - 768px */
+@media (max-width: 768px) {
+  .app {
+    padding: 1.5rem;
+    padding-top: 70px;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .form-input, .form-select {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  .custom-order-button {
+    padding: 0.7rem 1.2rem;
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+  }
+
+  .price-preview {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile Screens - 480px */
+@media (max-width: 480px) {
+  .app {
+    padding: 1rem;
+    padding-top: 60px;
+  }
+
+  .hero {
+    padding: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .cta-button, .custom-order-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .form-input, .form-select {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .price-preview {
+    font-size: 1rem;
+  }
+
+  .image-drop-zone {
+    padding: 1.5rem;
+    border-width: 3px;
+  }
+
+  .modal-content {
+    padding: 1rem;
+  }
+}
