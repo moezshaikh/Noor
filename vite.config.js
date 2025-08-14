@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     port: 3000, // same as CRA
   },
+  base: './', // ensures relative paths for assets in production
 });
