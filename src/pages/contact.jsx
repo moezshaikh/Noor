@@ -32,7 +32,7 @@ function Contact() {
 
           <div className="contact-info">
             <p><strong>Email:</strong> support@noorcalligraphy.com</p>
-            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Phone:</strong> +91 9XXX XXXXX XX</p>
             <p><strong>Location:</strong> Pune, Maharashtra, India</p>
           </div>
 
@@ -78,14 +78,14 @@ function Contact() {
       </div>
 
       {/* Floating WhatsApp Chat Button */}
-      <a
-        href="https://wa.me/919876543210?text=Hi%20Noor%20Team!%20I%20have%20a%20question..."
-        className="whatsapp-chat"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FaWhatsapp /> Chat with Us
-      </a>
+<a
+  href="#"
+  className="whatsapp-chat"
+  onClick={(e) => e.preventDefault()} // prevents navigation
+>
+  <FaWhatsapp /> Chat with Us
+</a>
+
     </div>
   );
 }
