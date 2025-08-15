@@ -154,8 +154,8 @@ const Home = () => {
           <h2 className="about-simple-title">About Us</h2>
           <p className="about-simple-text">
             Noor is born out of a deep love for Islamic art, calligraphy, and modern digital expression.
-            For over 30 years, our team has worked to bridge tradition and technology — preserving ancient
-            scripts while innovating through AI and design. Our mission is simple: to make meaningful,
+            Our team has worked to bridge tradition and technology , preserving ancient
+            scripts while innovating. Our mission is simple: to make meaningful,
             spiritually uplifting art accessible to all.
           </p>
           <p className="about-simple-text">
@@ -165,7 +165,7 @@ const Home = () => {
           </p>
           <p className="about-simple-text">
             Whether you're decorating your home, searching for a heartfelt gift, or exploring art with spiritual depth, 
-            Moart offers a sanctuary of elegance, reverence, and soul.
+            Noor offers a sanctuary of elegance, reverence, and soul.
           </p>
           <a href="/about" className="explore-button">Know More</a>
         </div>
@@ -208,7 +208,7 @@ const Home = () => {
               <h3>Free Delivery</h3>
               <p>
                 Enjoy fast and free shipping across India, with careful packaging to ensure your 
-                art arrives safely and beautifully.
+                art arrives safely.
               </p>
             </div>
             <div className="service-card">
@@ -227,7 +227,7 @@ const Home = () => {
       <section className="newsletter-section">
         <div className="newsletter-content">
           <h2 className="newsletter-title">💌 Get Your Customised Art Now</h2>
-          <p className="newsletter-text">Stay connected with Moart. Receive fresh, hand-crafted calligraphy delivered to your doorstep.</p>
+          <p className="newsletter-text">Stay connected with Noor. Receive fresh, hand-crafted calligraphy delivered to your doorstep.</p>
           <a href="/gallery" className="explore-button">Order Now</a>
         </div>
       </section>

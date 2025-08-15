@@ -48,7 +48,7 @@ const ArtGallery = () => {
     },
     {
       id: 3,
-      title: "Fabi Ayyi Ala I Rabbikuma Tukazziban ",      
+      title: "Muhammad Rasul allah",      
       price: 189.99,
       image: fe3,
       category: "Watercolor",
